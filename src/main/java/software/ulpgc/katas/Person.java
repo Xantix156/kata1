@@ -11,9 +11,13 @@ public class Person {
         this.name = name;
         this.birthday = birthday;
     }
-
+    
     public int age(){
-        return (int) ((LocalDate.now().toEpochDay() - birthday.toEpochDay()) / DAYS_PER_YEAR);
+        return toYears(LocalDate.now().toEpochDay() - birthday.toEpochDay());
+    }
+
+    private int toYears(long days) {
+        return (int) (days / DAYS_PER_YEAR);
     }
 
     public String getName() {
