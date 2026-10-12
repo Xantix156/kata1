@@ -63,5 +63,5 @@ Como evidencia de la repetición se creó una rama adicional desde el commit ini
 
 ## Vídeo explicativo
 
-[Ver vídeo de la Kata 1](PEGA_AQUI_EL_ENLACE_DEL_VIDEO)
+[Ver vídeo de la Kata 1](https://drive.google.com/file/d/1S5qHH6-j2C6HE2B0Uv_NHkpVuNpSJRo3/view?usp=sharing)
 
